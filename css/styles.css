@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  font-size: 16px;
+  font-weight: 700;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  text-align: left;
+  margin: auto;
+  max-width: 380px;
+  max-height: 700px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), hsl(213, 19%, 18%));
+  border-radius: 20px;
+}
+
+.main-container {
+  text-align: left;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+h1, h2 {
+  margin: 10px 0;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+p {
+  padding: 10px 0;
+  margin: 10px 0;
+  color: hsl(217, 12%, 63%);
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+ul li .btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: hsl(213, 20%, 23%);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+ul li .btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+ul li .btn:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.star {
+  width: 20px;
+  background-color: hsl(213, 20%, 23%);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.btn-submit {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 30px;
+  border: 0;
+  letter-spacing: 0.1rem;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-rating {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 20%, 23%);
+  border-radius: 30px;
+  display: block;
+  margin: 0 5rem 2rem;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.thank-you img {
+  max-width: 10rem;
+  margin: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  color: #fff;
+  font-size: 0.6875rem;
+  padding: 2.5rem 0 2.5rem 0;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(25, 97%, 53%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(178, 100%, 50%);
+}
